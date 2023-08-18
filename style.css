@@ -1,0 +1,19 @@
+body{
+    text-align: center;
+    background-image:url("https://static.vecteezy.com/system/resources/previews/019/550/171/original/cute-rabbit-kawaii-with-a-heart-png.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+canvas{
+    animation-name: shinything;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+@keyframes shinything{
+    from{
+        box-shadow: 5px 5px 100px rgb(247, 171, 191);
+    }
+    to{
+        box-shadow: 5px 5px 15px rgb(246, 227, 175);
+    }
+}
